@@ -1,3 +1,9 @@
+REM GenerateSFTPChecker.bat
+REM Kristofer Christakos
+REM Batch file to generate batch files to check for missing files on an SFTP server.
+REM https://kriscoder.com/, https://github.com/kriscode1/
+REM License: Modify as desired.
+
 @echo off
 set /P servername="Enter the SFTP server name: "
 set /P username="Enter the username: "
